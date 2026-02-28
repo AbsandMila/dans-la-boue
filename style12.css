@@ -2210,8 +2210,9 @@ blockquote cite a {
 
 .userlist {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 191px 191px 191px 191px auto;
   grid-gap: 10px;
+  width: 1020px;
 }
 
 .userlist_profil {
