@@ -11,19 +11,19 @@
   color-scheme: light;
   --header: url('https://images2.imgbox.com/e5/fb/TTqPoDcu_o.png');
 
-  --neutral: #262626;
-  --neutralDark: #1a1a1a;
+  --neutral: #f2e9da;
+  --neutralDark: #e3d9c8;
   --neutralDarker: #dce3f4;
 
-  --contrast: #f3b659;
+  --contrast: #0b493a;
   --contrastLight: #232657;
   --contrastLighter: #c3c8f3;
 
   --accentClr: #0b493a;
   --accentClrDark: #333c92;
 
-  --textColor: #e5ddcf;
-  --textColorAccent: #f2e9da;
+  --textColor: #202020;
+  --textColorAccent: #0a0a0a;
 
   --border: 1px solid #e5e5e5;
 
@@ -43,19 +43,19 @@
   color-scheme: dark;
   --header: url('https://images2.imgbox.com/89/30/IXFzrs0y_o.png');
 
-  --neutral: #1e212a;
-  --neutralDark: #181a21;
+  --neutral: #262626;
+  --neutralDark: #1a1a1a;
   --neutralDarker: #313543;
 
-  --contrast: #e5e5f0;
+  --contrast: #f3b659;
   --contrastLight: #f4f4f4;
   --contrastLighter: #40485e;
 
-  --accentClr: #7583ff;
+  --accentClr: #0b493a;
   --accentClrDark: #333c92;
 
-  --textColor: #c7c5cd;
-  --textColorAccent: #e5e5f0;
+  --textColor: #f2e9da;
+  --textColorAccent: #e5ddcf;
 
   --border: 1px solid #2b2e3b;
 
@@ -229,7 +229,7 @@ a {
 
 /*liens au survol*/
 a:hover {
-  color: var(--contrast);
+  color: var(--accentClr);
 }
 
 /* Emoji mis par défaut de FA
