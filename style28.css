@@ -2313,11 +2313,13 @@ blockquote cite a {
   font-weight: 600;
   font-size: var(--medium-size);
   line-height: 1;
+}
 
 .postprofile-rank {
   text-align: right;
   font-family: var(--fontchivo);
   text-transform: uppercase;
+}
 
 .profile_avatar {
   width: 200px;
