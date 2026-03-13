@@ -906,7 +906,7 @@ a.specials_links:empty {
   position: relative;
   display: grid;
   place-items: center;
-  background-color: var(--neutralDark);
+  background-color: var(--neutral);
   width: 35px;
   height: 35px;
   border-radius: 50%;
