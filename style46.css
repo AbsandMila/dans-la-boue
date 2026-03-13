@@ -1741,7 +1741,6 @@ a.forumtitle {
 
 .qeel-grid {
   width: 1020px;
-  height: 146px;
   display: grid;
   grid-template: auto / 323px 323px auto;
   gap: 10px;
