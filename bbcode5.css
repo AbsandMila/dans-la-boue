@@ -421,15 +421,15 @@ c1 {
   color: var(--contrast) !important;}
 
 note {
-  display: block;
-  position: relative;
-  text-align: justify;
-  border-left: 1px solid var(--textColor);
-  padding: 5px 10px;
-  margin-top: 30px;
-  margin-bottom: 18.5px;
-  margin-right:10px;
-  margin-left:10px;
+display: block;
+    position: relative;
+    text-align: justify;
+    border-left: 1px solid var(--textColor);
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 note i {
@@ -442,16 +442,16 @@ border: 1px solid var(--textColor);
 }
 
 notechivo {
-  display: block;
-  position: relative;
-  text-align: justify;
-  border-left: 1px solid var(--textColor);
+    display: block;
+    position: relative;
+    text-align: justify;
+    border-left: 1px solid var(--textColor);
     padding: 5px 10px;
-     font-family: var(--fontchivo);
-  margin-top: 30px;
-  margin-bottom: 18.5px;
-  margin-right:10px;
-  margin-left:10px;
+    font-family: var(--fontchivo);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 notechivo i {
