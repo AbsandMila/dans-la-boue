@@ -108,10 +108,12 @@ trigger div {
   max-width: 500px;
   transition: opacity .2s ease-in-out;
   text-align: justify;
+  pointer-events: none;
 }
 
-trigger:hover div{
-  opacity:1;}
+trigger:hover div {
+  opacity:1;
+pointer-events: ;} 
 
 s1{
  color: var(--neutral) !important;
