@@ -285,7 +285,7 @@ b1:hover {
 }
 
 blockquote {
-  background: var(--neutralDark);
+  background: var(--neutral);
   padding: 10px;
   text-align: justify;
   font-family: var(--fontchivo);
