@@ -2852,6 +2852,8 @@ blockquote cite a {
   margin: 0;
   font-size: 14px;
   padding: 10px 15px;
+  height: 41px;
+  display: inline-block;
 }
 
 .profile_admin a:hover {
