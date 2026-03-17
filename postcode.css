@@ -1,0 +1,137 @@
+.block-post {
+  display: block;
+  width: 690px;
+  margin: 50px 25px;
+  color: var(--textColor);
+  border: 1px solid var(--neutralDarker);
+  position: relative;
+}
+
+.lore-head {
+  height: 162px;
+  display: grid;
+  grid-template-columns: 60% 1fr;
+}
+
+.lore-head span {
+  grid-column: 2;
+  font-family: var(--fontchivo);
+  font-size: var(--normal-size);
+  text-transform: uppercase;
+  text-align: left;
+  align-content: center;
+}
+
+.lore-title {
+  padding: 0px 10px;
+  font-family: var(--fontchivo);
+  text-align: left;
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+.lore-title-title {
+  font-size: var(--title-size);
+  font-family: var(--fontchivo);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.lore-subtitle {
+  font-size: var(--normal-size);
+  font-family: var(--fontchivo);
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: -27px;
+  margin-left: 4px;
+}
+
+.lore-kwords {
+  display: grid;
+  text-align: left;
+  padding: 0px 14px;
+  grid-template-columns: 300px 1fr;
+}
+
+.lore-kwords span {
+  font-size: var(--normal-size);
+  font-family: var(--fontchivo);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.lore-kwords content {
+  font-size: var(--normal-size);
+  font-family: var(--fontchivo);
+  text-transform: uppercase;
+}
+
+content sm1 {
+  font-family: var(--fontchivo);
+  padding: 0px 5px;
+  margin: 0px 0px;
+  text-transform: uppercase;
+  box-shadow: inset 0 -8px 0 var(--accentClr);
+  font-weight: 700;
+}
+
+.lore-bigdot-left {
+  height: 30px;
+  width: 30px;
+  background: var(--neutral);
+  border: 1px solid var(--neutralDarker);
+  position: absolute;
+  border-radius: 100%;
+  left: -15px;
+}
+
+.lore-decor-left {
+  height: 35px;
+  width: 30px;
+  background: var(--neutral);
+  position: absolute;
+  left: -31px;
+}
+
+.lore-bigdot-right {
+  height: 30px;
+  width: 30px;
+  background: var(--neutral);
+  border: 1px solid var(--neutralDarker);
+  position: absolute;
+  border-radius: 100%;
+  right: -15px;
+}
+
+.lore-decor-right {
+  height: 35px;
+  width: 30px;
+  background: var(--neutral);
+  position: absolute;
+  right: -31px;
+}
+
+.lore-content {
+  padding: 25px;
+  border-top: 1px dashed var(--neutralDarker);
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 390px 1fr;
+  text-align: justify;
+  gap: 20px;
+}
+
+.lore-annexe {
+  border: 1px solid var(--neutralDarker);
+  padding: 5px 10px 10px 10px;
+}
+
+.lore-foot {
+  grid-column: 1/3;
+  padding: 10px;
+  background: var(--textColor);
+  color: var(--neutral);
+  font-family: var(--fontchivo);
+  text-transform: uppercase;
+  text-align: right;
+}
