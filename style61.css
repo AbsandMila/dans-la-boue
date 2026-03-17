@@ -3285,10 +3285,6 @@ form[name="form_login"] .content {
 .adminlink {
     clear: both;
     margin: auto;
-    width: 224px;
-    height: 40px;
-    border: 1px solid !important;
-    background: var(--neutralDarker);
     text-transform: uppercase;
     font-weight: 900 !important;
     font-family: var(--fontchivo);
@@ -3300,6 +3296,5 @@ color: var(--textColor);
 }
 
 .adminlink:hover {
-background: var(--accentClr);
 color: var(--textColor);
 }
