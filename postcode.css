@@ -1,7 +1,7 @@
 .block-post {
   display: block;
   width: 690px;
-  margin: 50px 25px;
+  margin: 25px;
   color: var(--textColor);
   border: 1px solid var(--neutralDarker);
   position: relative;
