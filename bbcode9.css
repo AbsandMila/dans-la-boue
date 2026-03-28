@@ -234,7 +234,7 @@ c1 {
 
 /*blocks de textes*/
 blockquote {
-  background: var(--neutral);
+  background: var(--neutralDark);
   padding: 10px;
   text-align: justify;
   font-family: var(--fontchivo);
