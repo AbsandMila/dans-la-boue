@@ -154,7 +154,8 @@ content sm1 {
   top: -1px;
 }
 
-.block-fiche tw {
+.block-fiche trigger tw {
+  padding: 3px 10px;
 }
 
 .block-fiche trigger div {
